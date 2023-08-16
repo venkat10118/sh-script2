@@ -3,4 +3,4 @@
 echo "enter username"
 
 read USERNAMEs
-echo "username entered is $USERNAMEs"
+echo "username entered is $USERNAME"
