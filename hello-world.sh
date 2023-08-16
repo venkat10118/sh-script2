@@ -1,8 +1,8 @@
 #!/bin/bash
 
 echo "hello world second attempt"
-person1=anup
-person2=bal
+person1=roh
+person2=sach
 
 echo "$person1: hi $person2,gm"
 echo "$person2: hi $person1 gm"
