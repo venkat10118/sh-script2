@@ -2,5 +2,5 @@
 
 echo "enter username"
 
-read USERNAME
-echo "username entered is $USERNAME"
+read USERNAMEs
+echo "username entered is $USERNAMEs"
