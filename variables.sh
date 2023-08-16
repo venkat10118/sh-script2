@@ -1,4 +1,4 @@
 #!/bin/bash
 
 date=$(date)
-echo "this is exec at timestamp : $DATE "
+echo "this is exec at timestamp : $date"
