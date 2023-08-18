@@ -6,7 +6,7 @@ if [ $UserID -ne 0 ]
 	exit1
 fi
 VALIDATE(){
- if [ $? -ne 0 ]
+ if [ $1 -ne 0 ]
  then
    echo"instal fail"
  else
