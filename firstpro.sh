@@ -8,12 +8,12 @@ fi
 VALIDATE(){
  if [ $? -ne 0 ]
  then
-   echo "instal fail"
+   echo "$1 instal fail"
  else
-   echo "instal succ"
+   echo "$1 instal succ"
  fi
   }
   
   yum install postfix -y
   
-VALIDATE $?
+VALIDATE $? "postfixsuc"
