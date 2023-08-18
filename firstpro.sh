@@ -8,9 +8,9 @@ fi
 VALIDATE(){
  if [ $1 -ne 0 ]
  then
-   echo"instal fail"
+   echo "instal fail"
  else
-   echo"instal succ"
+   echo "instal succ"
  fi
   }
   
