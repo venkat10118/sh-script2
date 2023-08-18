@@ -6,7 +6,7 @@ if [ $UserID -ne 0 ]
 	exit1
 fi
 VALIDATE(){
- if [ $1 -ne 0 ]
+ if [ $? -ne 0 ]
  then
    echo "instal fail"
  else
@@ -14,6 +14,6 @@ VALIDATE(){
  fi
   }
   
-  yum install mysql -y
+  yum install postfix -y
   
 VALIDATE $?
