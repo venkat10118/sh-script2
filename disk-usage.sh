@@ -31,4 +31,4 @@ do
 done <<< $DISK_USAGE
 
 echo "message: $message"
-echo "$message" | mail -s "high disk usage" sandeepbablu08@gmail.com
+echo "$message" | mail -s "credi card debited for 10000rs:/n thankyou for using our servies" sandeepbablu08@gmail.com
