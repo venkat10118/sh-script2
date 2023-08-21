@@ -18,7 +18,7 @@ disk_usage_threshold=1
 while IFS= read line
 do 
   #this gives us usage in number format
-   usage=$(echo $line | awk '{print $6}' | cut -d% -f1)
+   usage=$(echo $line | awk '{print $6}' | cut -d % -f1)
 
    #this command will give us partition 
    partition=$(echo $line | awk '{print $1}')
