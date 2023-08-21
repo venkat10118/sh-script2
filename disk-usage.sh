@@ -12,7 +12,7 @@ N="\e[0m"
 Y="\e[33m"
 
 
-DISK_USAGE=$(df -ht | grep -vE 'tmpfs|Filesystem')
+DISK_USAGE=$(df -hT | grep -vE 'tmpfs|Filesystem')
 disk_usage_threshold=1
 #IFS= internal field separator is space
 while IFS= read line
